@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'YogaSansLigh';
+    src: url(fonts/YogaSansLight.ttf);
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.tab button {
+    font-family: 'YogaSansLigh';
+    font-size: large;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    margin-top: 5px;
+    font-family: 'YogaSansLigh';
+    font-size: large;
+    display: none;
+    padding: 6px 190px 12px 190px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.hightlight {
+    color: #bd8621;
+    font-size: x-large  ;
+    font-weight: bolder;
+}
+h3 {
+    font-size: xx-large;
+}
+.tabs {
+    margin-top: 5px;
+}
